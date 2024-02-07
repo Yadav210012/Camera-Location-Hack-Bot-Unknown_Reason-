@@ -66,7 +66,7 @@ async function createLink(cid, msg) {
     var m = {
       reply_markup: JSON.stringify({
         inline_keyboard: [
-          [{ text: '𝗥𝗘𝗖𝗥𝗘𝗔𝗧𝗘 𝗔 𝗟𝗜𝗡𝗞🖥️', callback_data: 'crenew' }],
+          [{ text: '𝗥𝗘-𝗖𝗥𝗘𝗔𝗧𝗘 𝗔 𝗟𝗜𝗡𝗞🖥️', callback_data: 'crenew' }],
         ],
       }),
     };
